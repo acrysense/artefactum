@@ -19,7 +19,7 @@
 	<!-- wrapper -->
 	<div class="wrapper">
 		<!-- header -->
-		<header class="header" id="header">
+		<header class="header header--inner" id="header">
 			<div class="container">
 				<div class="header__wrapper">
 					<a href="index.html" class="header__logotype">
@@ -28,13 +28,13 @@
 					<nav class="nav header__nav">
 						<ul class="nav__list">
 							<li class="nav__item">
-								<a href="#" class="nav__link">О нас</a>
+								<a href="about.html" class="nav__link">About</a>
 							</li>
 							<li class="nav__item">
-								<a href="#" class="nav__link">Каталог</a>
+								<a href="#" class="nav__link">Catalog</a>
 							</li>
 							<li class="nav__item">
-								<a href="#" class="nav__link">Контакты</a>
+								<a href="contacts.html" class="nav__link">Contacts</a>
 							</li>
 						</ul>
 					</nav>
@@ -44,13 +44,19 @@
 								<svg>
 									<use xlink:href="img/sprite.svg#icon-search"></use>
 								</svg>
-								<span>Поиск</span>
+								<span>Search</span>
 							</a>
-							<a href="#" class="header__controls-item">
+							<a href="favorites.html" class="header__controls-item">
 								<svg>
 									<use xlink:href="img/sprite.svg#icon-favorites"></use>
 								</svg>
-								<span>Избранное</span>
+								<span>Wishlist</span>
+							</a>
+							<a href="basket.html" class="header__controls-item">
+								<svg>
+									<use xlink:href="img/sprite.svg#icon-basket"></use>
+								</svg>
+								<span>$0.00</span>
 							</a>
 						</div>
 					</div>
@@ -69,7 +75,7 @@
 				<div class="mobile-menu__block">
 					<div class="c-search mobile-menu__search">
 						<form action="#" class="c-search__form">
-							<input type="text" class="c-search__input" placeholder="Что ищите?">
+							<input type="text" class="c-search__input" placeholder="Search">
 							<button class="c-search__btn">
 								<svg>
 									<use xlink:href="img/sprite.svg#icon-search"></use>
@@ -80,13 +86,13 @@
 					<nav class="nav mobile-menu__nav">
 						<ul class="nav__list">
 							<li class="nav__item">
-								<a href="#" class="nav__link">О нас</a>
+								<a href="about.html" class="nav__link">About</a>
 							</li>
 							<li class="nav__item">
-								<a href="#" class="nav__link">Каталог</a>
+								<a href="#" class="nav__link">Catalog</a>
 							</li>
 							<li class="nav__item">
-								<a href="#" class="nav__link">Контакты</a>
+								<a href="contacts.html" class="nav__link">Contacts</a>
 							</li>
 						</ul>
 					</nav>
@@ -97,7 +103,7 @@
 							<svg>
 								<use xlink:href="img/sprite.svg#icon-favorites"></use>
 							</svg>
-							<span>Избранное</span>
+							<span>Wishlist</span>
 						</a>
 					</div>
 					<div class="mobile-menu__links">
@@ -135,6 +141,22 @@
 		<!-- end of mobile menu -->
 		<!-- content -->
 		<div class="wrapper__content">
+			<!-- breadcrumb -->
+			<div class="breadcrumb" aria-label="Breadcrumb">
+				<div class="container">
+					<nav class="breadcrumb__nav">
+						<ol class="breadcrumb__list">
+							<li class="breadcrumb__item">
+								<a href="index.html" class="breadcrumb__link">Main</a>
+							</li>
+							<li class="breadcrumb__item">
+								<a href="contacts.html" class="breadcrumb__link">Contact</a>
+							</li>
+						</ol>
+					</nav>
+				</div>
+			</div>
+			<!-- end of breadcrumb -->
 			<!-- why us -->
 			<section class="why-us" id="why-us">
 				<div class="container">
@@ -145,23 +167,22 @@
 						<article class="why-us__item">
 							<h3 class="why-us__title">Our phone</h3>
 							<p class="why-us__description">
-								<a href="tel:88005005640">8 (800) 500-56-40</a>
-								<a href="tel:74955005640">7 (495) 500-56-40</a>
+								<a href="tel:+971507777777">+971 50 777 77 77</a>
 							</p>
 						</article>
 						<article class="why-us__item">
 							<h3 class="why-us__title">Our Email</h3>
 							<p class="why-us__description">
-								<a href="mailto:info@paleohunters.ru">info@paleohunters.ru</a>
+								<a href="mailto:info@artefactumgallery.com">info@artefactumgallery.com</a>
 							</p>
 						</article>
 						<article class="why-us__item">
 							<h3 class="why-us__title">Find Us</h3>
-							<p class="why-us__description">Санкт-Петербург, Большой проспект ВО, дом 74</p>
+							<p class="why-us__description">St. Petersburg, Bolshoi prospect VO, 74</p>
 						</article>
 						<article class="why-us__item">
 							<h3 class="why-us__title">working mode</h3>
-							<p class="why-us__description">Пн. - Пт.: с 9:00 до 18:00</p>
+							<p class="why-us__description">Mon. - Fri.: from 9:00 to 18:00</p>
 						</article>
 					</div>
 				</div>
@@ -185,7 +206,7 @@
 									<input type="email" id="contacts-email" class="input-field__input" placeholder="Your e-mail">
 								</div>
 								<div class="input-field contacts-form__input">
-									<textarea id="contacts-massage" class="input-field__textarea" placeholder="Enter your massage"></textarea>
+									<textarea id="contacts-message" class="input-field__textarea" placeholder="Enter your message"></textarea>
 								</div>
 								<button class="contacts-form__btn btn">Send</button>
 							</form>
@@ -200,7 +221,7 @@
 			</section>
 			<!-- end of contacts -->
 			<!-- about us -->
-			<section class="about-us" id="about-us">
+			<section class="about-us about-us--indent" id="about-us">
 				<div class="container">
 					<div class="section-top">
 						<h2 class="section-top__title">about us</h2>
@@ -210,6 +231,17 @@
 							<div class="about-us__body">
 								<h3 class="about-us__title">Innovating with AI for a Better Future</h3>
 								<p class="about-us__description">We are a cutting-edge technology company dedicated to providing innovative solutions for a better future. With a team of experts in artificial intelligence and machine learning, we aim to create products that streamline processes, improve efficiency, and enhance the lives of people everywhere. Our mission is to use technology to make the world a better place, and we are constantly exploring new ways to do so. We are a cutting-edge technology company dedicated to providing innovative solutions for a better future. With a team of experts in artificial intelligence and machine learning, we aim to create products that streamline processes, improve efficiency, and enhance the lives of people everywhere. Our mission is to use technology to make the world a better place, and we are constantly exploring new ways to do so.</p>
+								<ul class="about-list about-us__list">
+									<li class="about-list__item">
+										<p class="about-list__elem">Our mission is to use technology to make the world a better place, and we are constantly exploring new ways to do so.</p>
+									</li>
+									<li class="about-list__item">
+										<p class="about-list__elem">Our mission is to use technology to make the world a better place, and we are constantly exploring new ways to do so.</p>
+									</li>
+									<li class="about-list__item">
+										<p class="about-list__elem">Our mission is to use technology to make the world a better place, and we are constantly exploring new ways to do so.</p>
+									</li>
+								</ul>
 							</div>
 						</div>
 						<div class="about-us__right">
@@ -251,14 +283,11 @@
 				<div class="footer__wrapper">
 					<div class="footer__left">
 						<a href="index.html" class="footer__logotype">
-							<picture>
-								<source srcset="img/logotype.svg" media="(min-width: 1800px)">
-								<img src="img/logotype-sm.svg" alt="ARTEFACTUM GALLERY">
-							</picture>
+							<img src="img/logotype.svg" alt="ARTEFACTUM GALLERY">
 						</a>
 						<div class="footer__links">
-							<a href="tel:88005005640" class="footer__link">8 (800) 500-56-40</a>
-							<a href="mailto:info@paleohunters.ru" class="footer__link">info@paleohunters.ru</a>
+							<a href="tel:+971507777777" class="footer__link">+971 50 777 77 77</a>
+							<a href="mailto:info@artefactumgallery.com" class="footer__link">info@artefactumgallery.com</a>
 						</div>
 					</div>
 					<div class="footer__center">
@@ -269,13 +298,13 @@
 					<div class="footer__right">
 						<ul class="footer__list">
 							<li class="footer__list-item">
-								<a href="#" class="footer__list-link">О нас</a>
+								<a href="about.html" class="footer__list-link">About</a>
 							</li>
 							<li class="footer__list-item">
-								<a href="#" class="footer__list-link">Каталог</a>
+								<a href="#" class="footer__list-link">Catalog</a>
 							</li>
 							<li class="footer__list-item">
-								<a href="#" class="footer__list-link">Контакты</a>
+								<a href="contacts.html" class="footer__list-link">Contacts</a>
 							</li>
 						</ul>
 						<div class="socnav footer__socnav">

@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ARTEFACTUM GALLERY</title>
-	<meta property="og:title" content="ARTEFACTUM GALLERY">
+	<title>ARTEFACTUM GALLERY - About</title>
+	<meta property="og:title" content="ARTEFACTUM GALLERY - About">
 	<meta property="og:description" content="Description">
 	<meta property="og:url" content="/">
-	<meta property="og:site_name" content="ARTEFACTUM GALLERY">
+	<meta property="og:site_name" content="ARTEFACTUM GALLERY - About">
 	<!-- styles -->
 	<link rel="stylesheet" href="css/vendor.min.css">
 	<link rel="stylesheet" href="css/app.min.css">
@@ -19,7 +19,7 @@
 	<!-- wrapper -->
 	<div class="wrapper">
 		<!-- header -->
-		<header class="header @@header" id="header">
+		<header class="header header--inner" id="header">
 			<div class="container">
 				<div class="header__wrapper">
 					<a href="index.html" class="header__logotype">
@@ -141,85 +141,24 @@
 		<!-- end of mobile menu -->
 		<!-- content -->
 		<div class="wrapper__content">
-			<!-- why us -->
-			<section class="why-us" id="why-us">
+			<!-- breadcrumb -->
+			<div class="breadcrumb" aria-label="Breadcrumb">
 				<div class="container">
-					<div class="section-top">
-						<h2 class="section-top__title">Why us</h2>
-					</div>
-					<div class="why-us__wrapper">
-						<article class="why-us__item">
-							<h3 class="why-us__title">Unique project</h3>
-							<p class="why-us__description">Artefactum Gallery is unparalleled in the United Arab Emirates.</p>
-						</article>
-						<article class="why-us__item">
-							<h3 class="why-us__title">Exclusive selling</h3>
-							<p class="why-us__description">All items exist in a single copy and are available for purchase.</p>
-						</article>
-						<article class="why-us__item">
-							<h3 class="why-us__title">New rare collections</h3>
-							<p class="why-us__description">We often bring in new items: unique fossils, stones, jewelry, etc.</p>
-						</article>
-						<article class="why-us__item">
-							<h3 class="why-us__title">Authenticity guarantee</h3>
-							<p class="why-us__description">All exhibits are original, which can be confirmed by any expert appraisal.</p>
-						</article>
-					</div>
+					<nav class="breadcrumb__nav">
+						<ol class="breadcrumb__list">
+							<li class="breadcrumb__item">
+								<a href="index.html" class="breadcrumb__link">Main</a>
+							</li>
+							<li class="breadcrumb__item">
+								<a href="about.html" class="breadcrumb__link">About</a>
+							</li>
+						</ol>
+					</nav>
 				</div>
-			</section>
-			<!-- end of why us -->
-			<!-- categories -->
-			<section class="categories" id="categories">
-				<div class="container">
-					<div class="section-top">
-						<h2 class="section-top__title">catalog</h2>
-					</div>
-					<div class="categories__wrapper">
-						<a href="#" class="categories__item">
-							<span class="categories__name">Fossils</span>
-							<picture class="categories__img">
-								<img src="img/categories-01.png" alt="Image">
-							</picture>
-						</a>
-						<a href="#" class="categories__item">
-							<span class="categories__name">Jewelry</span>
-							<picture class="categories__img">
-								<img src="img/categories-02.png" alt="Image">
-							</picture>
-						</a>
-						<a href="#" class="categories__item">
-							<span class="categories__name">Meteorites & minerals</span>
-							<picture class="categories__img">
-								<img src="img/categories-03.png" alt="Image">
-							</picture>
-						</a>
-						<a href="#" class="categories__item">
-							<span class="categories__name">The skins of wild animals</span>
-							<picture class="categories__img">
-								<img src="img/categories-04.png" alt="Image">
-							</picture>
-						</a>
-						<a href="#" class="categories__item">
-							<span class="categories__name">Entomologia</span>
-							<picture class="categories__img">
-								<img src="img/categories-05.png" alt="Image">
-							</picture>
-						</a>
-						<a href="#" class="categories__item">
-							<span class="categories__name">bONE Carving</span>
-							<picture class="categories__img">
-								<img src="img/categories-06.png" alt="Image">
-							</picture>
-						</a>
-					</div>
-					<picture class="categories__bg">
-						<img src="img/categories-bg.jpg" alt="Image">
-					</picture>
-				</div>
-			</section>
-			<!-- end of categories -->
+			</div>
+			<!-- end of breadcrumb -->
 			<!-- about us -->
-			<section class="about-us about-us--indent" id="about-us">
+			<section class="about-us" id="about-us">
 				<div class="container">
 					<div class="section-top">
 						<h2 class="section-top__title">about us</h2>
@@ -282,6 +221,183 @@
 				</div>
 			</section>
 			<!-- end of about us -->
+			<!-- products viewewd -->
+			<section class="products-viewed section-indent" id="products-viewed">
+				<div class="container">
+					<div class="products-viewed__slider">
+						<div class="section-slider-top">
+							<h3 class="section-slider-top__title">Products viewed</h3>
+							<div class="section-slider-top__devider"></div>
+							<div class="swiper-controls">
+								<button class="swiper-button-prev">
+									<svg class="swiper-button-icon">
+										<use xlink:href="img/sprite.svg#icon-arrow-prev"></use>
+									</svg>
+								</button>
+								<div class="swiper-pagination"></div>
+								<button class="swiper-button-next">
+									<svg class="swiper-button-icon">
+										<use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="products-viewed__slider-wrapper">
+							<div class="swiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="products-viewed__slide">
+											<picture class="products-viewed__img">
+												<button class="c-like products-viewed__img-like">
+													<svg class="c-like__icon">
+														<use xlink:href="img/sprite.svg#icon-favorites"></use>
+													</svg>
+												</button>
+												<img src="img/products-viewed-01.png" alt="Image">
+											</picture>
+											<div class="products-viewed__body">
+												<div class="products-viewed__group">
+													<h3 class="products-viewed__title">Deer skin</h3>
+													<p class="products-viewed__description">Reindeer skin. Factory, perfect dressing. Large size, thick, dense fur.</p>
+												</div>
+												<div class="products-viewed__group">
+													<h3 class="products-viewed__title">Price on request</h3>
+													<div class="products-viewed__controls">
+														<a href="#" class="products-viewed__btn btn btn--white">See more</a>
+														<button class="c-like products-viewed__like">
+															<svg class="c-like__icon">
+																<use xlink:href="img/sprite.svg#icon-favorites"></use>
+															</svg>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="products-viewed__slide">
+											<picture class="products-viewed__img">
+												<button class="c-like products-viewed__img-like">
+													<svg class="c-like__icon">
+														<use xlink:href="img/sprite.svg#icon-favorites"></use>
+													</svg>
+												</button>
+												<img src="img/products-viewed-02.png" alt="Image">
+											</picture>
+											<div class="products-viewed__body">
+												<div class="products-viewed__group">
+													<h3 class="products-viewed__title">Deer skin</h3>
+													<p class="products-viewed__description">Reindeer skin. Factory, perfect dressing. Large size, thick, dense fur.</p>
+												</div>
+												<div class="products-viewed__group">
+													<div class="products-viewed__prices">
+														<span class="products-viewed__price products-viewed__price--new">30 000 ₽</span>
+														<span class="products-viewed__price products-viewed__price--old">50 900 ₽</span>
+													</div>
+													<div class="products-viewed__controls">
+														<a href="#" class="products-viewed__btn btn btn--white">See more</a>
+														<button class="c-like products-viewed__like">
+															<svg class="c-like__icon">
+																<use xlink:href="img/sprite.svg#icon-favorites"></use>
+															</svg>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="products-viewed__slide">
+											<picture class="products-viewed__img">
+												<button class="c-like products-viewed__img-like">
+													<svg class="c-like__icon">
+														<use xlink:href="img/sprite.svg#icon-favorites"></use>
+													</svg>
+												</button>
+												<img src="img/products-viewed-03.png" alt="Image">
+											</picture>
+											<div class="products-viewed__body">
+												<div class="products-viewed__group">
+													<h3 class="products-viewed__title">Deer skin</h3>
+													<p class="products-viewed__description">Reindeer skin. Factory, perfect dressing. Large size, thick, dense fur.</p>
+												</div>
+												<div class="products-viewed__group">
+													<h3 class="products-viewed__title">Price on request</h3>
+													<div class="products-viewed__controls">
+														<a href="#" class="products-viewed__btn btn btn--white">See more</a>
+														<button class="c-like products-viewed__like">
+															<svg class="c-like__icon">
+																<use xlink:href="img/sprite.svg#icon-favorites"></use>
+															</svg>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="products-viewed__slide">
+											<picture class="products-viewed__img">
+												<button class="c-like products-viewed__img-like">
+													<svg class="c-like__icon">
+														<use xlink:href="img/sprite.svg#icon-favorites"></use>
+													</svg>
+												</button>
+												<img src="img/products-viewed-02.png" alt="Image">
+											</picture>
+											<div class="products-viewed__body">
+												<div class="products-viewed__group">
+													<h3 class="products-viewed__title">Deer skin</h3>
+													<p class="products-viewed__description">Reindeer skin. Factory, perfect dressing. Large size, thick, dense fur.</p>
+												</div>
+												<div class="products-viewed__group">
+													<h3 class="products-viewed__title">Price on request</h3>
+													<div class="products-viewed__controls">
+														<a href="#" class="products-viewed__btn btn btn--white">See more</a>
+														<button class="c-like products-viewed__like">
+															<svg class="c-like__icon">
+																<use xlink:href="img/sprite.svg#icon-favorites"></use>
+															</svg>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end of products viewewd -->
+			<!-- why us -->
+			<section class="why-us why-us--indent" id="why-us">
+				<div class="container">
+					<div class="section-top">
+						<h2 class="section-top__title">Why us</h2>
+					</div>
+					<div class="why-us__wrapper">
+						<article class="why-us__item">
+							<h3 class="why-us__title">Unique project</h3>
+							<p class="why-us__description">Artefactum Gallery is unparalleled in the United Arab Emirates.</p>
+						</article>
+						<article class="why-us__item">
+							<h3 class="why-us__title">Exclusive selling</h3>
+							<p class="why-us__description">All items exist in a single copy and are available for purchase.</p>
+						</article>
+						<article class="why-us__item">
+							<h3 class="why-us__title">New rare collections</h3>
+							<p class="why-us__description">We often bring in new items: unique fossils, stones, jewelry, etc.</p>
+						</article>
+						<article class="why-us__item">
+							<h3 class="why-us__title">Authenticity guarantee</h3>
+							<p class="why-us__description">All exhibits are original, which can be confirmed by any expert appraisal.</p>
+						</article>
+					</div>
+				</div>
+			</section>
+			<!-- end of why us -->
 			<!-- newsletter -->
 			<section class="newsletter" id="newslettet">
 				<div class="container">
@@ -289,7 +405,7 @@
 						<div class="newsletter__body">
 							<h3 class="newsletter__subtitle">Subscribe to our newsletter</h3>
 							<h2 class="newsletter__title">newsletter</h2>
-							<p class="newsletter__description">Be the first to know about our newest and rarest items. Stay up to date with news and promotions from the world of archeology</p>
+							<p class="newsletter__description">Be the first to know about our newest and rarest items. <br>Stay up to date with news and promotions from the <br>world of archeology</p>
 						</div>
 						<div class="newsletter__form">
 							<form action="#" class="newsletter-form newsletter__form-inner">
@@ -297,7 +413,7 @@
 									<label for="newsletter-email" class="input-field__label">E-mail</label>
 									<input type="email" id="newsletter-email" class="input-field__input" placeholder="Enter your e-mail">
 								</div>
-								<button class="newsletter-form__btn btn">Send</button>
+								<button class="newsletter-form__btn btn">Подписаться</button>
 							</form>
 						</div>
 					</div>
