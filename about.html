@@ -41,7 +41,7 @@
 					<div class="c-controls header__controls">
 						<div class="c-controls__list">
 							<div class="c-controls__item">
-								<a href="#" class="c-controls__trigger">
+								<a href="#" class="c-controls__trigger" id="search-toggle">
 									<svg>
 										<use xlink:href="img/sprite.svg#icon-search"></use>
 									</svg>
@@ -100,6 +100,40 @@
 			</div>
 		</header>
 		<!-- end of header -->
+		<!-- search -->
+		<div class="search" id="search">
+			<div class="container">
+				<div class="search__wrap">
+					<div class="search__top">
+						<h2 class="search__title">Site search</h2>
+						<button class="search__close">
+							<svg class="search__close-icon">
+								<use xlink:href="img/sprite.svg#icon-close"></use>
+							</svg>
+						</button>
+					</div>
+					<form action="#" class="search__form">
+						<input type="text" class="search__input" placeholder="Search">
+					</form>
+					<div class="search__results">
+						<h3 class="search__subtitle">Popular queries</h3>
+						<ul class="search__list">
+							<li class="search__item">
+								<a href="#" class="search__lin">Deer skin</a>
+							</li>
+							<li class="search__item">
+								<a href="#" class="search__lin">Head</a>
+							</li>
+							<li class="search__item">
+								<a href="#" class="search__lin">Butterfly</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="search__bg" style="background-image: url(img/categories-bg.jpg);"></div>
+			</div>
+		</div>
+		<!-- end of search -->
 		<!-- mobile menu -->
 		<div class="mobile-menu" id="mobile-menu">
 			<div class="mobile-menu__wrapper">
@@ -113,6 +147,27 @@
 								</svg>
 							</button>
 						</form>
+						<div class="c-search__results">
+							<div class="c-search__inner">
+								<h3 class="c-search__subtitle">Popular queries</h3>
+								<button class="c-search__close">
+									<svg class="c-search__close-icon">
+										<use xlink:href="img/sprite.svg#icon-close"></use>
+									</svg>
+								</button>
+							</div>
+							<ul class="c-search__list">
+								<li class="c-search__item">
+									<a href="#" class="c-search__lin">Deer skin</a>
+								</li>
+								<li class="c-search__item">
+									<a href="#" class="c-search__lin">Head</a>
+								</li>
+								<li class="c-search__item">
+									<a href="#" class="c-search__lin">Butterfly</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 					<nav class="nav mobile-menu__nav">
 						<ul class="nav__list">
