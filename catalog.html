@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ARTEFACTUM GALLERY - Searching results</title>
-	<meta property="og:title" content="ARTEFACTUM GALLERY - Searching results">
+	<title>ARTEFACTUM GALLERY - Catalog</title>
+	<meta property="og:title" content="ARTEFACTUM GALLERY - Catalog">
 	<meta property="og:description" content="Description">
 	<meta property="og:url" content="/">
-	<meta property="og:site_name" content="ARTEFACTUM GALLERY - Searching results">
+	<meta property="og:site_name" content="ARTEFACTUM GALLERY - Catalog">
 	<!-- styles -->
 	<link rel="stylesheet" href="css/vendor.min.css">
 	<link rel="stylesheet" href="css/app.min.css">
@@ -181,27 +181,23 @@
 								<a href="index.html" class="breadcrumb__link">Main</a>
 							</li>
 							<li class="breadcrumb__item">
-								<a href="search-results.html" class="breadcrumb__link">Searching results</a>
+								<a href="catalog.html" class="breadcrumb__link">Catalog</a>
 							</li>
 						</ol>
 					</nav>
 				</div>
 			</div>
 			<!-- end of breadcrumb -->
-			<!-- search results -->
-			<section class="search-results" id="search-results">
+			<!-- catalog -->
+			<section class="catalog" id="catalog">
 				<div class="container">
-					<div class="search-results__top">
-						<h1 class="search-results__heading">Searching results</h1>
-						<p class="search-results__description">On request: <span>deer skin</span> – 5 products</p>
+					<div class="section-top">
+						<h2 class="section-top__title">catalog</h2>
 					</div>
-					<picture class="search-results__bg">
-						<img src="img/categories-bg.jpg" alt="Image">
-					</picture>
 				</div>
 			</section>
-			<!-- end of search results -->
-			<!-- products viewewd -->
+			<!-- end of catalog -->
+			<!-- products viewed -->
 			<section class="products-viewed" id="products-viewed">
 				<div class="container">
 					<div class="products-viewed__wrapper">
@@ -316,10 +312,135 @@
 								</div>
 							</div>
 						</div>
+						<div class="products-viewed__slide">
+							<picture class="products-viewed__img">
+								<button class="c-like products-viewed__img-like">
+									<svg class="c-like__icon">
+										<use xlink:href="img/sprite.svg#icon-favorites"></use>
+									</svg>
+								</button>
+								<img src="img/products-viewed-02.png" alt="Image">
+							</picture>
+							<div class="products-viewed__body">
+								<div class="products-viewed__group">
+									<h3 class="products-viewed__title">Deer skin</h3>
+									<p class="products-viewed__description">Reindeer skin. Factory, perfect dressing. Large size, thick, dense fur.</p>
+								</div>
+								<div class="products-viewed__group">
+									<div class="products-viewed__prices">
+										<span class="products-viewed__price products-viewed__price--new">30 000 ₽</span>
+										<span class="products-viewed__price products-viewed__price--old">50 900 ₽</span>
+									</div>
+									<div class="products-viewed__controls">
+										<a href="#" class="products-viewed__btn btn btn--white">See more</a>
+										<button class="c-like products-viewed__like">
+											<svg class="c-like__icon">
+												<use xlink:href="img/sprite.svg#icon-favorites"></use>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products-viewed__slide">
+							<picture class="products-viewed__img">
+								<button class="c-like products-viewed__img-like">
+									<svg class="c-like__icon">
+										<use xlink:href="img/sprite.svg#icon-favorites"></use>
+									</svg>
+								</button>
+								<img src="img/products-viewed-03.png" alt="Image">
+							</picture>
+							<div class="products-viewed__body">
+								<div class="products-viewed__group">
+									<h3 class="products-viewed__title">Deer skin</h3>
+									<p class="products-viewed__description">Reindeer skin. Factory, perfect dressing. Large size, thick, dense fur.</p>
+								</div>
+								<div class="products-viewed__group">
+									<h3 class="products-viewed__title">Price on request</h3>
+									<div class="products-viewed__controls">
+										<a href="#" class="products-viewed__btn btn btn--white">See more</a>
+										<button class="c-like products-viewed__like">
+											<svg class="c-like__icon">
+												<use xlink:href="img/sprite.svg#icon-favorites"></use>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
+					<picture class="products-viewed__bg">
+						<img src="img/products-viewed-bg.jpg" alt="Image">
+					</picture>
 				</div>
 			</section>
 			<!-- end of products viewewd -->
+			<!-- auction -->
+			<section class="auction" id="auction">
+				<div class="container">
+					<div class="auction__wrapper">
+						<div class="auction__info">
+							<h2 class="auction__heading">HAVE TIME TO BUY FIRST</h2>
+							<div class="c-timer auction__timer">
+								<div class="c-timer__wrapper">
+									<div class="c-timer__item">
+										<span class="c-timer__value c-timer--days">01</span>
+										<span class="c-timer__help">Days</span>
+									</div>
+									<div class="c-timer__item">
+										<span class="c-timer__value c-timer--hours">12</span>
+										<span class="c-timer__help">Hours</span>
+									</div>
+									<div class="c-timer__item">
+										<span class="c-timer__value c-timer--minutes">47</span>
+										<span class="c-timer__help">Minutues</span>
+									</div>
+									<div class="c-timer__item">
+										<span class="c-timer__value c-timer--seconds">20</span>
+										<span class="c-timer__help">Seconds</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="auction__body">
+							<h3 class="auction__title">The Sikhote-Alin meteorite</h3>
+							<p class="auction__description">A large fragment of the Sikhote-Alin meteorite belonging to individual fragments. Fragments of this type are formed during the destruction of a meteorite in the air before colliding with the Earth.</p>
+							<div class="auction__inner">
+								<a href="#" class="auction__btn btn btn--white">Read more</a>
+								<h4 class="auction__subtitle">Price on request</h4>
+							</div>
+						</div>
+						<picture class="auction__img">
+							<img src="img/auction-img.png" alt="Image">
+						</picture>
+					</div>
+				</div>
+			</section>
+			<!-- end of auction -->
+			<!-- about us -->
+			<section class="about-us section-indent" id="about-us">
+				<div class="container">
+					<div class="about-us__wrapper about-us__wrapper--reverse">
+						<div class="about-us__left">
+							<div class="about-us__body">
+								<h3 class="about-us__title">ABOUT BONE CARVING</h3>
+								<p class="about-us__description">
+									Over time, bone carving became an independent type of artistic creativity. Mammoth tusk is a noble expensive material with a unique color scheme. It arises from the impact of minerals in the places of occurrence, it is impossible to repeat it artificially.
+									<br><br>
+									Mammoth tusks and bones are found in many places of the earth, even in the middle belt. But only in the North, thanks to permafrost, they are well preserved, although their age is at least 10 thousand years. The shape of the future souvenir is always dictated by the material. The master enters the pose of the figure into the bends of the piece, into its chips and cracks. Interestingly, no manual work repeats another exactly, even if the master wants it. Each tusk or horn has its own texture and color, there are no two identical pieces.
+								</p>
+							</div>
+						</div>
+						<div class="about-us__right">
+							<picture class="about-us__img">
+								<img src="img/about-us-03.jpg" alt="Image">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end of about us -->
 			<!-- newsletter -->
 			<section class="newsletter" id="newslettet">
 				<div class="container">
@@ -335,7 +456,7 @@
 									<label for="newsletter-email" class="input-field__label">E-mail</label>
 									<input type="email" id="newsletter-email" class="input-field__input" placeholder="Enter your e-mail">
 								</div>
-								<button class="newsletter-form__btn btn">Подписаться</button>
+								<button class="newsletter-form__btn btn">Send</button>
 							</form>
 						</div>
 					</div>

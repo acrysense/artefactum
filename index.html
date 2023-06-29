@@ -31,7 +31,7 @@
 								<a href="about.html" class="nav__link">About</a>
 							</li>
 							<li class="nav__item">
-								<a href="#" class="nav__link">Catalog</a>
+								<a href="catalog.html" class="nav__link">Catalog</a>
 							</li>
 							<li class="nav__item">
 								<a href="contacts.html" class="nav__link">Contacts</a>
@@ -50,6 +50,7 @@
 							</div>
 							<div class="c-controls__item">
 								<a href="favorites.html" class="c-controls__trigger">
+									<span class="c-controls__value">2</span>
 									<svg>
 										<use xlink:href="img/sprite.svg#icon-favorites"></use>
 									</svg>
@@ -58,6 +59,7 @@
 							</div>
 							<div class="c-controls__item">
 								<a href="basket.html" class="c-controls__trigger">
+									<span class="c-controls__value">2</span>
 									<svg>
 										<use xlink:href="img/sprite.svg#icon-basket"></use>
 									</svg>
@@ -118,7 +120,7 @@
 								<a href="about.html" class="nav__link">About</a>
 							</li>
 							<li class="nav__item">
-								<a href="#" class="nav__link">Catalog</a>
+								<a href="catalog.html" class="nav__link">Catalog</a>
 							</li>
 							<li class="nav__item">
 								<a href="contacts.html" class="nav__link">Contacts</a>
@@ -170,6 +172,36 @@
 		<!-- end of mobile menu -->
 		<!-- content -->
 		<div class="wrapper__content">
+			<!-- main -->
+			<section class="main" id="main">
+				<div class="container">
+					<div class="main__wrapper">
+						<div class="main__body">
+							<div class="main__subtitle">Through the time with</div>
+							<h1 class="main__title">Artefactum Gallery</h1>
+							<p class="main__description">Our main task and mission of the brand —to give an opportunity to travel back in time, touch the history and become a uniquebuyer of what no one had before.</p>
+						</div>
+						<div class="c-product main__product">
+							<h3 class="c-product__title">Popular product</h3>
+							<picture class="c-product__img">
+								<img src="img/product-slide-01.png" alt="Image">
+							</picture>
+							<div class="c-product__body">
+								<h3 class="c-product__name">Sculpture «Ocean»</h3>
+								<p class="c-product__description">The sculptural composition is made in the form of a swivel coffee table. An original decorativeelement made in the technique of bone carving.</p>
+								<div class="c-product__inner">
+									<h4 class="c-product__subtitle">Price on request</h4>
+									<a href="#" class="c-product__btn btn btn--white">Send a request</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<picture class="main__bg">
+						<img src="img/main-bg.jpg" alt="Image">
+					</picture>
+				</div>
+			</section>
+			<!-- end of main -->
 			<!-- why us -->
 			<section class="why-us" id="why-us">
 				<div class="container">
@@ -318,10 +350,10 @@
 			<section class="new-arrivals section-indent" id="new-arrivals">
 				<div class="container">
 					<div class="new-arrivals__slider">
-						<div class="section-slider-top">
+						<div class="section-slider-top section-slider-top--desktop">
 							<h3 class="section-slider-top__title">New arrivals</h3>
 							<div class="section-slider-top__devider"></div>
-							<div class="swiper-controls">
+							<div class="swiper-controls section-slider-top__controls">
 								<button class="swiper-button-prev">
 									<svg class="swiper-button-icon">
 										<use xlink:href="img/sprite.svg#icon-arrow-prev"></use>
@@ -346,10 +378,9 @@
 												</picture>
 												<div class="new-arrivals__body">
 													<div class="new-arrivals__group">
-														<h3 class="new-arrivals__title">Hyena skull ADCROCUTA</h3>
-														<span class="new-arrivals__help">Genus: Agriocharus</span>
+														<h3 class="new-arrivals__title">Jewelry pendant with Carcharodontosaurus tooth (tooth size 6,5 cm)</h3>
 														<div class="c-rarity new-arrivals__rarity">
-															<span class="c-rarity__title">Rarity:</span>
+															<span class="c-rarity__title">Rare:</span>
 															<div class="c-rarity__list --2">
 																<svg class="c-rarity__icon">
 																	<use xlink:href="img/sprite.svg#icon-rarity"></use>
@@ -371,12 +402,15 @@
 														<p class="new-arrivals__description">Agriocharus is a representative of rather strange mammals that lived in the Eocene in North America.</p>
 													</div>
 													<div class="new-arrivals__group">
-														<a href="#" class="new-arrivals__more">
-															<span>More</span>
-															<svg>
-																<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-															</svg>
-														</a>
+														<div class="new-arrivals__inner">
+															<h4 class="new-arrivals__subtitle">Price on request</h4>
+															<a href="#" class="new-arrivals__more">
+																<span>Read more</span>
+																<svg>
+																	<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+																</svg>
+															</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -387,9 +421,8 @@
 												<div class="new-arrivals__body">
 													<div class="new-arrivals__group">
 														<h3 class="new-arrivals__title">Hyena skull ADCROCUTA</h3>
-														<span class="new-arrivals__help">Genus: Agriocharus</span>
 														<div class="c-rarity new-arrivals__rarity">
-															<span class="c-rarity__title">Rarity:</span>
+															<span class="c-rarity__title">Rare:</span>
 															<div class="c-rarity__list --2">
 																<svg class="c-rarity__icon">
 																	<use xlink:href="img/sprite.svg#icon-rarity"></use>
@@ -411,12 +444,15 @@
 														<p class="new-arrivals__description">Agriocharus is a representative of rather strange mammals that lived in the Eocene in North America.</p>
 													</div>
 													<div class="new-arrivals__group">
-														<a href="#" class="new-arrivals__more">
-															<span>More</span>
-															<svg>
-																<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-															</svg>
-														</a>
+														<div class="new-arrivals__inner">
+															<h4 class="new-arrivals__subtitle">Price on request</h4>
+															<a href="#" class="new-arrivals__more">
+																<span>Read more</span>
+																<svg>
+																	<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+																</svg>
+															</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -431,9 +467,8 @@
 												<div class="new-arrivals__body">
 													<div class="new-arrivals__group">
 														<h3 class="new-arrivals__title">Hyena skull ADCROCUTA</h3>
-														<span class="new-arrivals__help">Genus: Agriocharus</span>
 														<div class="c-rarity new-arrivals__rarity">
-															<span class="c-rarity__title">Rarity:</span>
+															<span class="c-rarity__title">Rare:</span>
 															<div class="c-rarity__list --2">
 																<svg class="c-rarity__icon">
 																	<use xlink:href="img/sprite.svg#icon-rarity"></use>
@@ -455,12 +490,15 @@
 														<p class="new-arrivals__description">Agriocharus is a representative of rather strange mammals that lived in the Eocene in North America.</p>
 													</div>
 													<div class="new-arrivals__group">
-														<a href="#" class="new-arrivals__more">
-															<span>More</span>
-															<svg>
-																<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-															</svg>
-														</a>
+														<div class="new-arrivals__inner">
+															<h4 class="new-arrivals__subtitle">Price on request</h4>
+															<a href="#" class="new-arrivals__more">
+																<span>Read more</span>
+																<svg>
+																	<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+																</svg>
+															</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -470,10 +508,9 @@
 												</picture>
 												<div class="new-arrivals__body">
 													<div class="new-arrivals__group">
-														<h3 class="new-arrivals__title">Hyena skull ADCROCUTA</h3>
-														<span class="new-arrivals__help">Genus: Agriocharus</span>
+														<h3 class="new-arrivals__title">Jewelry pendant with Carcharodontosaurus tooth (tooth size 7,5 cm)</h3>
 														<div class="c-rarity new-arrivals__rarity">
-															<span class="c-rarity__title">Rarity:</span>
+															<span class="c-rarity__title">Rare:</span>
 															<div class="c-rarity__list --2">
 																<svg class="c-rarity__icon">
 																	<use xlink:href="img/sprite.svg#icon-rarity"></use>
@@ -495,12 +532,15 @@
 														<p class="new-arrivals__description">Agriocharus is a representative of rather strange mammals that lived in the Eocene in North America.</p>
 													</div>
 													<div class="new-arrivals__group">
-														<a href="#" class="new-arrivals__more">
-															<span>More</span>
-															<svg>
-																<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-															</svg>
-														</a>
+														<div class="new-arrivals__inner">
+															<h4 class="new-arrivals__subtitle">Price on request</h4>
+															<a href="#" class="new-arrivals__more">
+																<span>Read more</span>
+																<svg>
+																	<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+																</svg>
+															</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -515,9 +555,8 @@
 												<div class="new-arrivals__body">
 													<div class="new-arrivals__group">
 														<h3 class="new-arrivals__title">Hyena skull ADCROCUTA</h3>
-														<span class="new-arrivals__help">Genus: Agriocharus</span>
 														<div class="c-rarity new-arrivals__rarity">
-															<span class="c-rarity__title">Rarity:</span>
+															<span class="c-rarity__title">Rare:</span>
 															<div class="c-rarity__list --2">
 																<svg class="c-rarity__icon">
 																	<use xlink:href="img/sprite.svg#icon-rarity"></use>
@@ -539,12 +578,15 @@
 														<p class="new-arrivals__description">Agriocharus is a representative of rather strange mammals that lived in the Eocene in North America.</p>
 													</div>
 													<div class="new-arrivals__group">
-														<a href="#" class="new-arrivals__more">
-															<span>More</span>
-															<svg>
-																<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-															</svg>
-														</a>
+														<div class="new-arrivals__inner">
+															<h4 class="new-arrivals__subtitle">Price on request</h4>
+															<a href="#" class="new-arrivals__more">
+																<span>Read more</span>
+																<svg>
+																	<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+																</svg>
+															</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -554,10 +596,9 @@
 												</picture>
 												<div class="new-arrivals__body">
 													<div class="new-arrivals__group">
-														<h3 class="new-arrivals__title">Hyena skull ADCROCUTA</h3>
-														<span class="new-arrivals__help">Genus: Agriocharus</span>
+														<h3 class="new-arrivals__title">Jewelry pendant with Carcharodontosaurus tooth (tooth size 7,5 cm)</h3>
 														<div class="c-rarity new-arrivals__rarity">
-															<span class="c-rarity__title">Rarity:</span>
+															<span class="c-rarity__title">Rare:</span>
 															<div class="c-rarity__list --2">
 																<svg class="c-rarity__icon">
 																	<use xlink:href="img/sprite.svg#icon-rarity"></use>
@@ -579,12 +620,15 @@
 														<p class="new-arrivals__description">Agriocharus is a representative of rather strange mammals that lived in the Eocene in North America.</p>
 													</div>
 													<div class="new-arrivals__group">
-														<a href="#" class="new-arrivals__more">
-															<span>More</span>
-															<svg>
-																<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-															</svg>
-														</a>
+														<div class="new-arrivals__inner">
+															<h4 class="new-arrivals__subtitle">Price on request</h4>
+															<a href="#" class="new-arrivals__more">
+																<span>Read more</span>
+																<svg>
+																	<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+																</svg>
+															</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -598,10 +642,9 @@
 												</picture>
 												<div class="new-arrivals__body">
 													<div class="new-arrivals__group">
-														<h3 class="new-arrivals__title">Hyena skull ADCROCUTA</h3>
-														<span class="new-arrivals__help">Genus: Agriocharus</span>
+														<h3 class="new-arrivals__title">Sculpture «Bull»</h3>
 														<div class="c-rarity new-arrivals__rarity">
-															<span class="c-rarity__title">Rarity:</span>
+															<span class="c-rarity__title">Rare:</span>
 															<div class="c-rarity__list --2">
 																<svg class="c-rarity__icon">
 																	<use xlink:href="img/sprite.svg#icon-rarity"></use>
@@ -623,12 +666,15 @@
 														<p class="new-arrivals__description">Agriocharus is a representative of rather strange mammals that lived in the Eocene in North America.</p>
 													</div>
 													<div class="new-arrivals__group">
-														<a href="#" class="new-arrivals__more">
-															<span>More</span>
-															<svg>
-																<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-															</svg>
-														</a>
+														<div class="new-arrivals__inner">
+															<h4 class="new-arrivals__subtitle">Price on request</h4>
+															<a href="#" class="new-arrivals__more">
+																<span>Read more</span>
+																<svg>
+																	<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+																</svg>
+															</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -638,10 +684,9 @@
 												</picture>
 												<div class="new-arrivals__body">
 													<div class="new-arrivals__group">
-														<h3 class="new-arrivals__title">Hyena skull ADCROCUTA</h3>
-														<span class="new-arrivals__help">Genus: Agriocharus</span>
+														<h3 class="new-arrivals__title">Sculpture «Small Locomotive»</h3>
 														<div class="c-rarity new-arrivals__rarity">
-															<span class="c-rarity__title">Rarity:</span>
+															<span class="c-rarity__title">Rare:</span>
 															<div class="c-rarity__list --2">
 																<svg class="c-rarity__icon">
 																	<use xlink:href="img/sprite.svg#icon-rarity"></use>
@@ -663,12 +708,15 @@
 														<p class="new-arrivals__description">Agriocharus is a representative of rather strange mammals that lived in the Eocene in North America.</p>
 													</div>
 													<div class="new-arrivals__group">
-														<a href="#" class="new-arrivals__more">
-															<span>More</span>
-															<svg>
-																<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-															</svg>
-														</a>
+														<div class="new-arrivals__inner">
+															<h4 class="new-arrivals__subtitle">Price on request</h4>
+															<a href="#" class="new-arrivals__more">
+																<span>Read more</span>
+																<svg>
+																	<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+																</svg>
+															</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -677,6 +725,7 @@
 								</div>
 							</div>
 						</div>
+						<a href="#" class="new-arrivals__load-more btn btn--light">Load more</a>
 					</div>
 				</div>
 			</section>
@@ -732,7 +781,7 @@
 								<a href="about.html" class="footer__list-link">About</a>
 							</li>
 							<li class="footer__list-item">
-								<a href="#" class="footer__list-link">Catalog</a>
+								<a href="catalog.html" class="footer__list-link">Catalog</a>
 							</li>
 							<li class="footer__list-item">
 								<a href="contacts.html" class="footer__list-link">Contacts</a>
