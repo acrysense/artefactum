@@ -249,11 +249,78 @@
 					<div class="section-top">
 						<h2 class="section-top__title">catalog</h2>
 					</div>
+					<div class="catalog__slider">
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="#" class="catalog__slide">
+										<picture class="catalog__img">
+											<img src="img/categories-01.png" alt="Image">
+										</picture>
+										<span class="catalog__name">asda</span>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="catalog__slide">
+										<picture class="catalog__img">
+											<img src="img/categories-02.png" alt="Image">
+										</picture>
+										<span class="catalog__name">asda</span>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="catalog__slide">
+										<picture class="catalog__img">
+											<img src="img/categories-03.png" alt="Image">
+										</picture>
+										<span class="catalog__name">asda</span>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="catalog__slide">
+										<picture class="catalog__img">
+											<img src="img/categories-04.png" alt="Image">
+										</picture>
+										<span class="catalog__name">asda</span>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="catalog__slide">
+										<picture class="catalog__img">
+											<img src="img/categories-04.png" alt="Image">
+										</picture>
+										<span class="catalog__name">asda</span>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="catalog__slide">
+										<picture class="catalog__img">
+											<img src="img/categories-04.png" alt="Image">
+										</picture>
+										<span class="catalog__name">asda</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-controls">
+							<button class="swiper-button-prev">
+								<svg class="swiper-button-icon">
+									<use xlink:href="img/sprite.svg#icon-arrow-prev"></use>
+								</svg>
+							</button>
+							<div class="swiper-pagination"></div>
+							<button class="swiper-button-next">
+								<svg class="swiper-button-icon">
+									<use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
 				</div>
 			</section>
 			<!-- end of catalog -->
 			<!-- products viewed -->
-			<section class="products-viewed" id="products-viewed">
+			<section class="products-viewed section-indent" id="products-viewed">
 				<div class="container">
 					<div class="products-viewed__wrapper">
 						<div class="products-viewed__slide">
@@ -264,6 +331,12 @@
 									</svg>
 								</button>
 								<img src="img/products-viewed-01.png" alt="Image">
+								<a href="#" class="products-viewed__quick-view quick-view-btn" data-id="quick-view-01">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-eye"></use>
+									</svg>
+									<span>Quick view</span>
+								</a>
 							</picture>
 							<div class="products-viewed__body">
 								<div class="products-viewed__group">
@@ -291,6 +364,12 @@
 									</svg>
 								</button>
 								<img src="img/products-viewed-02.png" alt="Image">
+								<a href="#" class="products-viewed__quick-view quick-view-btn" data-id="quick-view-01">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-eye"></use>
+									</svg>
+									<span>Quick view</span>
+								</a>
 							</picture>
 							<div class="products-viewed__body">
 								<div class="products-viewed__group">
@@ -321,6 +400,12 @@
 									</svg>
 								</button>
 								<img src="img/products-viewed-03.png" alt="Image">
+								<a href="#" class="products-viewed__quick-view quick-view-btn" data-id="quick-view-01">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-eye"></use>
+									</svg>
+									<span>Quick view</span>
+								</a>
 							</picture>
 							<div class="products-viewed__body">
 								<div class="products-viewed__group">
@@ -348,6 +433,12 @@
 									</svg>
 								</button>
 								<img src="img/products-viewed-01.png" alt="Image">
+								<a href="#" class="products-viewed__quick-view quick-view-btn" data-id="quick-view-01">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-eye"></use>
+									</svg>
+									<span>Quick view</span>
+								</a>
 							</picture>
 							<div class="products-viewed__body">
 								<div class="products-viewed__group">
@@ -375,6 +466,12 @@
 									</svg>
 								</button>
 								<img src="img/products-viewed-02.png" alt="Image">
+								<a href="#" class="products-viewed__quick-view quick-view-btn" data-id="quick-view-01">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-eye"></use>
+									</svg>
+									<span>Quick view</span>
+								</a>
 							</picture>
 							<div class="products-viewed__body">
 								<div class="products-viewed__group">
@@ -405,6 +502,12 @@
 									</svg>
 								</button>
 								<img src="img/products-viewed-03.png" alt="Image">
+								<a href="#" class="products-viewed__quick-view quick-view-btn" data-id="quick-view-01">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-eye"></use>
+									</svg>
+									<span>Quick view</span>
+								</a>
 							</picture>
 							<div class="products-viewed__body">
 								<div class="products-viewed__group">
@@ -585,6 +688,145 @@
 		<!-- end of footer -->
 	</div>
 	<!-- end of wrapper -->
+	<!-- quick view -->
+	<div class="quick-view" id="quick-view-01">
+		<div class="quick-view__wrap">
+			<div class="quick-view__main">
+				<button class="quick-view__close-btn quick-view__close" aria-label="Close">
+					<svg class="quick-view__close-icon">
+						<use xlink:href="img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+				<div class="c-quick-view">
+					<div class="c-quick-view__wrapper">
+						<div class="c-quick-view__slider">
+							<div class="gallery-thumbs">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide is--active" data-index="0">
+										<div class="swiper-img">
+											<picture>
+												<img src="img/product-slide-01.png" alt="Image">
+											</picture>
+										</div>
+									</div>
+									<div class="swiper-slide" data-index="1">
+										<div class="swiper-img">
+											<picture>
+												<img src="img/product-slide-02.png" alt="Image">
+											</picture>
+										</div>
+									</div>
+									<div class="swiper-slide" data-index="2">
+										<div class="swiper-img">
+											<picture>
+												<img src="img/product-slide-03.png" alt="Image">
+											</picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="gallery-main">
+								<button class="c-like c-quick-view__like">
+									<svg class="c-like__icon">
+										<use xlink:href="img/sprite.svg#icon-favorites"></use>
+									</svg>
+								</button>
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<picture>
+											<img src="img/product-slide-01.png" alt="Image">
+										</picture>
+									</div>
+									<div class="swiper-slide">
+										<picture>
+											<img src="img/product-slide-02.png" alt="Image">
+										</picture>
+									</div>
+									<div class="swiper-slide">
+										<picture>
+											<img src="img/product-slide-03.png" alt="Image">
+										</picture>
+									</div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+						<div class="c-quick-view__body">
+							<h3 class="c-quick-view__name">Deer skin</h3>
+							<div class="c-rarity c-quick-view__rarity">
+								<span class="c-rarity__title">Rare:</span>
+								<div class="c-rarity__list --4">
+									<svg class="c-rarity__icon">
+										<use xlink:href="img/sprite.svg#icon-rarity"></use>
+									</svg>
+									<svg class="c-rarity__icon">
+										<use xlink:href="img/sprite.svg#icon-rarity"></use>
+									</svg>
+									<svg class="c-rarity__icon">
+										<use xlink:href="img/sprite.svg#icon-rarity"></use>
+									</svg>
+									<svg class="c-rarity__icon">
+										<use xlink:href="img/sprite.svg#icon-rarity"></use>
+									</svg>
+									<svg class="c-rarity__icon">
+										<use xlink:href="img/sprite.svg#icon-rarity"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="c-quick-view__inner">
+								<h3 class="c-quick-view__subtitle">Price on request</h3>
+								<a href="#" class="c-quick-view__btn btn btn--beige modal-btn" data-id="modal-request">Send a request</a>
+							</div>
+							<div class="c-quick-view__details">
+								<div class="c-quick-view__block">
+									<h3 class="c-quick-view__title">ADDITIONAL INFORMATION</h3>
+									<div class="c-quick-view__list">
+										<div class="c-quick-view__list-elem">
+											<span class="c-quick-view__list-value c-quick-view__list-value--grey">Size:</span>
+											<span class="c-quick-view__list-devider"></span>
+											<span class="c-quick-view__list-value">400х180х180 mm</span>
+										</div>
+										<div class="c-quick-view__list-elem">
+											<span class="c-quick-view__list-value c-quick-view__list-value--grey">Material:</span>
+											<span class="c-quick-view__list-devider"></span>
+											<span class="c-quick-view__list-value">mammoth tusk, wenge wood</span>
+										</div>
+									</div>
+								</div>
+								<div class="c-quick-view__block">
+									<h3 class="c-quick-view__title">DESCRIPTION</h3>
+									<p class="c-quick-view__description">The sculptural composition called «White Pearl Cup» is a stunning decorative element made in the technique of bone carving. Beautiful, elegant, unusual – you can choose epithets for this sculpture for a long time. Allow yourself to become the owner of an exclusive exhibit from Artefactum Gallery.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="c-quick-view__additional">
+						<div class="c-quick-view__block">
+							<h3 class="c-quick-view__title">ADDITIONAL INFORMATION</h3>
+							<div class="c-quick-view__list">
+								<div class="c-quick-view__list-elem">
+									<span class="c-quick-view__list-value c-quick-view__list-value--grey">Size:</span>
+									<span class="c-quick-view__list-devider"></span>
+									<span class="c-quick-view__list-value">400х180х180 mm</span>
+								</div>
+								<div class="c-quick-view__list-elem">
+									<span class="c-quick-view__list-value c-quick-view__list-value--grey">Material:</span>
+									<span class="c-quick-view__list-devider"></span>
+									<span class="c-quick-view__list-value">mammoth tusk, wenge wood</span>
+								</div>
+							</div>
+						</div>
+						<div class="c-quick-view__block">
+							<h3 class="c-quick-view__title">DESCRIPTION</h3>
+							<p class="c-quick-view__description">The sculptural composition called «White Pearl Cup» is a stunning decorative element made in the technique of bone carving. Beautiful, elegant, unusual – you can choose epithets for this sculpture for a long time. Allow yourself to become the owner of an exclusive exhibit from Artefactum Gallery.</p>
+						</div>
+					</div>
+				</div>
+				<div class="quick-view__bg" style="background-image: url(img/categories-bg.jpg);"></div>
+			</div>
+		</div>
+	</div>
+	<!-- end of quick view -->
 	<!-- scripts -->
 	<script src="js/vendor.min.js"></script>
 	<script src="js/app.min.js"></script>
