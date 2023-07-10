@@ -248,7 +248,7 @@
 									<p class="c-product__description">The sculptural composition is made in the form of a swivel coffee table. An original decorativeelement made in the technique of bone carving.</p>
 									<div class="c-product__inner">
 										<h4 class="c-product__subtitle">Price on request</h4>
-										<a href="#" class="c-product__btn btn btn--white">Send a request</a>
+										<a href="#" class="c-product__btn btn btn--white modal-btn" data-id="modal-request">Send a request</a>
 									</div>
 								</div>
 							</div>
@@ -891,6 +891,78 @@
 		<!-- end of footer -->
 	</div>
 	<!-- end of wrapper -->
+	<!-- modals -->
+	<div class="modal" id="modal-request">
+		<div class="modal__wrap">
+			<div class="modal__main">
+				<button class="modal__close-btn modal__close" aria-label="Close">
+					<svg class="modal__close-icon">
+						<use xlink:href="img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+				<div class="modal__top">
+					<h3 class="modal__heading">Leave a request</h3>
+					<p class="modal__description">Your email address will not be published. Required fields are marked</p>
+				</div>
+				<form action="#" class="modal-form modal__form">
+					<div class="modal-form__inner">
+						<div class="input-field modal-form__input">
+							<input type="text" id="modal-request-name" class="input-field__input" placeholder="Your name">
+						</div>
+					</div>
+					<div class="modal-form__inner">
+						<div class="input-field modal-form__input">
+							<input type="tel" id="modal-request-phone" class="input-field__input" placeholder="Your phone" data-inputmask="'mask': '+7 (999) 999-99-99'">
+						</div>
+						<div class="input-field modal-form__input">
+							<input type="email" id="modal-request-email" class="input-field__input" placeholder="Your e-mail">
+						</div>
+					</div>
+					<button class="modal-form__btn btn btn--beige">Send</button>
+				</form>
+				<picture class="modal__bg">
+					<img src="img/categories-bg.jpg" alt="Image">
+				</picture>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="modal-request-ok">
+		<div class="modal__wrap">
+			<div class="modal__main">
+				<button class="modal__close-btn modal__close" aria-label="Close">
+					<svg class="modal__close-icon">
+						<use xlink:href="img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+				<div class="modal__top">
+					<h3 class="modal__heading modal__heading--icon">Your request has been successfully sent</h3>
+				</div>
+				<a href="#" class="modal__btn modal__close btn btn--clear-white">Close</a>
+				<picture class="modal__bg">
+					<img src="img/categories-bg.jpg" alt="Image">
+				</picture>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="modal-order-ok">
+		<div class="modal__wrap">
+			<div class="modal__main">
+				<button class="modal__close-btn modal__close" aria-label="Close">
+					<svg class="modal__close-icon">
+						<use xlink:href="img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+				<div class="modal__top">
+					<h3 class="modal__heading modal__heading--icon">Your order has been placed</h3>
+				</div>
+				<a href="#" class="modal__btn modal__close btn btn--clear-white">Close</a>
+				<picture class="modal__bg">
+					<img src="img/categories-bg.jpg" alt="Image">
+				</picture>
+			</div>
+		</div>
+	</div>
+	<!-- end of modals -->
 	<!-- scripts -->
 	<script src="js/vendor.min.js"></script>
 	<script src="js/app.min.js"></script>
